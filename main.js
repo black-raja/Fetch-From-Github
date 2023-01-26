@@ -3,7 +3,7 @@ let getButton = document.querySelector(".get-button")
 let showData = document.querySelector(".show-data")
 let table = document.querySelector("#table-body")
 let curruntid = 1
-console.log(showData)
+
 getButton.addEventListener("click", function () {
   getData()
 })
